@@ -16,7 +16,7 @@
     </div>
 
     <div>
-        <footer class="custom-footer bg-sky-900 text-white py-10 px-10">
+        <footer class="custom-footer bg-sky-900 text-white pt-10 pb-5 pl-20 pr-20">
             <div class="logo flex items-center">
                 <img src="../assets/Logo Resmi Unhas.png" class="w-14 mr-4" alt="">
                 <div class="text">
