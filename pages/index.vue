@@ -38,12 +38,31 @@
                 />
             </div>
         </div>
+
+        <div class="pengumuman m-20">
+            <div class="pengumuman-title border-l-[6px] border-l-red-700 border-solid h-full">
+                <span class="font-bold text-[#063556] text-[24px] bg-[#E3E4E6] pt-3 pb-3 pl-[50px] pr-[150px] h-full">PENGUMUMAN</span>
+            </div>
+            
+            <div class="isi-pengumuman m-10 flex justify-center">
+                <PengumumanCard className="dies" title="Dies Natalis FT-UH" date="26/09/2021" />
+                <PengumumanCard className="bangkit" title="Bangkit Academy 2022" date="26/09/2021"/>
+                <PengumumanCard className="seminar" title="Seminar Proposal" date="26/09/2021"/>
+            </div>
+        </div>
+
+        <div class="berita m-20">
+            <Title className="berita" title="BERITA" />
+        </div>
     </div>
 </template>
 
 <script>
     export default {
-        
+        // components: {
+        //     PengumumanCard,
+        //     Title,
+        // },
     }
 </script>
 
