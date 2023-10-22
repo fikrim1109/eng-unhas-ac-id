@@ -40,11 +40,9 @@
         </div>
 
         <div class="pengumuman m-20">
-            <div class="pengumuman-title border-l-[6px] border-l-red-700 border-solid h-full">
-                <span class="font-bold text-[#063556] text-[24px] bg-[#E3E4E6] pt-3 pb-3 pl-[50px] pr-[150px] h-full">PENGUMUMAN</span>
-            </div>
+            <TextTitle textTitle="PENGUMUMAN" />
             
-            <div class="isi-pengumuman m-10 flex justify-center">
+            <div class="isi-pengumuman m-10 flex justify-center flex-wrap">
                 <PengumumanCard className="dies" title="Dies Natalis FT-UH" date="26/09/2021" />
                 <PengumumanCard className="bangkit" title="Bangkit Academy 2022" date="26/09/2021"/>
                 <PengumumanCard className="seminar" title="Seminar Proposal" date="26/09/2021"/>
@@ -52,20 +50,50 @@
         </div>
 
         <div class="berita m-20">
-            <Title className="berita" title="BERITA" />
+            <TextTitle textTitle="BERITA" />
+            <div class="isi-berita flex justify-center flex-wrap">
+                <div class="berita-1 m-5">
+                    <img class="mt-[45px] mb-[13px]" src="../assets/berita1.png" alt="">
+                    <BeritaCard judul="Dies Natalies FT-UH" date="26/09/2023"/>
+                </div>
+                <div class="berita-2 m-5">
+                    <img class="mt-[45px] mb-[13px]" src="../assets/berita2.png" alt="">
+                    <BeritaCard judul="Gaji dinaikkan 5% Dosen Senang" date="26/09/2023"/>
+                </div>
+                <div class="berita-3 m-5">
+                    <img class="mt-[45px] mb-[13px]" src="../assets/berita3.png" alt="">
+                    <BeritaCard judul="Hoax: Penurunan UKT" date="26/09/2023"/>
+                </div>
+                <div class="berita-4 m-5">
+                    <img class="mt-[45px] mb-[13px]" src="../assets/berita4.png" alt="">
+                    <BeritaCard judul="Urgensi Gender di FT-UH" date="26/09/2023"/>
+                </div>
+                <div class="berita-5 m-5">
+                    <img class="mt-[45px] mb-[13px]" src="../assets/berita5.png" alt="">
+                    <BeritaCard judul="Kunjungan Kerja Tim FT" date="26/09/2023"/>
+                </div>
+                <div class="berita-6 m-5">
+                    <img class="mt-[45px] mb-[13px]" src="../assets/berita6.png" alt="">
+                    <BeritaCard judul="Kalla Kampus Talk 2022" date="26/09/2023"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="peta-kampus m-20">
+            <TextTitle textTitle="PETA KAMPUS"/>
+            <div class="maps flex justify-center m-10">
+                <iframe class="w-[1180px] " src="https://unhas.ac.id/petakampus/virtualtour/index.php?scene=outdoortheater" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
     export default {
-        // components: {
-        //     PengumumanCard,
-        //     Title,
-        // },
+       
     }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>
