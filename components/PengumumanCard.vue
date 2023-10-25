@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="{{ className }} w-[380px] pr-5 pl-5">
+        <div class="{{ class }} w-[380px] pr-5 pl-5">
             <div class="head flex justify-between items-center pb-3">
                 <p class="text-[#EB2629] font-bold text-[20px]"> {{ title }} </p>
                 <p class="text-[11px] text-[#063556] font-medium "> {{ date }} </p>
@@ -26,7 +26,7 @@
 <script>
     export default {
         props: {
-            className: String,
+            class: String,
             title: String,
             date: String,
         },
