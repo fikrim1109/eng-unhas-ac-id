@@ -1,20 +1,72 @@
 <template>
-    <div>
-        <header>
-            <nav>
-                <NuxtLink to="/">Nuxt </NuxtLink>
-                <ul>
-                    <li> <NuxtLink to="/">Home</NuxtLink> </li>
-                    <li><NuxtLink to="/about">About</NuxtLink></li>
-                </ul>
-            </nav>
-        </header>
+    <div className="TopBar w-screen h-9 relative ">
+      <div className="Rectangle1 w-screen h-9 left-0 top-0 absolute bg-sky-950" />
+      <div className="TopBarDetails left-[1211px] top-[10px] absolute justify-start items-end gap-7 inline-flex">
+        <div className="PetaSitus text-center text-white text-xs font-bold font-['Poppins']">PETA SITUS  ></div>
+        <div className="AksesCepat text-center text-white text-xs font-bold font-['Poppins']">AKSES CEPAT  ></div>
+      </div>
+      <div className="Unhas left-[45px] top-[10px] absolute text-neutral-100 text-xs font-bold font-['Poppins']">UNHAS  ></div>
+      <div className="Cot left-[122px] top-[10px] absolute text-neutral-100 text-xs font-bold font-['Poppins']">COT  ></div>
     </div>
-
+    <div className="TitleBar w-screen h-32 relative">
+      <div className="Rectangle2 w-screen h-32 left-0 top-0 absolute bg-sky-900" />
+      <img className="LogoResmiUnhas w-20 h-24 left-[39px] top-[16px] absolute" src="../assets/Logo Resmi Unhas.png" />
+      <div className="Title left-[138px] top-[36px] absolute">
+        <div className="FakultasTeknik left-0 top-0  whitespace-nowrap absolute text-center text-neutral-100 text-3xl font-bold font-['Poppins'] leading-9">FAKULTAS TEKNIK</div>
+        <div className="UniversitasHasanuddin left-0 top-[44px] whitespace-nowrap absolute text-neutral-100 text-base font-medium font-['Poppins'] leading-none">UNIVERSITAS HASANUDDIN</div>
+      </div>
+      <div className="SearchBar w-80 h-12 left-[1085px] top-[42px] absolute">
+        <div className="Cari left-[14px] top-[14px] absolute text-neutral-100 text-base font-semibold font-['Inter']">Cari</div>
+        <div className="IconSearch w-8 h-9 left-[262px] top-[6px] absolute">
+          <div className="Line1 w-9 h-px left-0 top-[36px] absolute origin-top-left -rotate-90 border-2 border-neutral-100"></div>
+        </div>
+      </div>
+    
+</div>
     <div>
+        <div className="Navbar w-screen h-16 px-11 py-2 bg-red-600 justify-start items-start gap-7 inline-flex">
+  <div className="Group1 w-16 h-9 relative">
+    <div className="Rectangle4 w-16 h-9 left-0 top-0 absolute bg-red-600 bg-opacity-0 border-b-2 border-neutral-100" />
+    <div className="Beranda w-14 h-3.5 left-[5px] top-[10px] absolute text-center text-neutral-100 text-xs font-bold font-['Inter']">BERANDA</div>
+  </div>
+  <div className="Group2 w-14 h-9 relative">
+    <div className="Rectangle4 w-14 h-9 left-0 top-0 absolute bg-red-600 bg-opacity-0" />
+    <div className="Profil left-[5px] top-[10px] absolute text-center text-neutral-100 text-xs font-bold font-['Inter']">PROFIL</div>
+  </div>
+  <div className="Group14 w-20 h-9 relative">
+    <div className="Rectangle4 w-20 h-9 left-[6px] top-0 absolute bg-red-600 bg-opacity-0" />
+    <div className="SumberDaya left-0 top-[10px] whitespace-nowrap absolute text-center text-neutral-100 text-xs font-bold font-['Inter']">SUMBER DAYA</div>
+  </div>
+  <div className="Group3 w-20 h-9 relative">
+    <div className="Rectangle4 w-20 h-9 left-0 top-0 absolute bg-red-600 bg-opacity-0" />
+    <div className="Akademik left-[5px] top-[10px] absolute text-center text-neutral-100 text-xs font-bold font-['Inter']">AKADEMIK</div>
+  </div>
+  <div className="Group4 w-32 h-9 relative">
+    <div className="Rectangle4 w-32 h-9 left-0 top-0 absolute bg-red-600 bg-opacity-0" />
+    <div className="Kemahasiswaan left-[5px] top-[10px] absolute text-center text-neutral-100 text-xs font-bold font-['Inter']">KEMAHASISWAAN</div>
+  </div>
+  <div className="Group5 w-32 h-9 relative">
+    <div className="Rectangle4 w-32 h-9 left-0 top-0 absolute bg-red-600 bg-opacity-0" />
+    <div className="RisetDanInovasi left-[5px] top-[10px] absolute text-center text-neutral-100 text-xs font-bold font-['Inter']">RISET DAN INOVASI</div>
+  </div>
+  <div className="Group6 w-20 h-9 relative">
+    <div className="Rectangle4 w-20 h-9 left-0 top-0 absolute bg-red-600 bg-opacity-0" />
+    <div className="Kemitraan left-[5px] top-[10px] absolute text-center text-neutral-100 text-xs font-bold font-['Inter']">KEMITRAAN</div>
+  </div>
+  <div className="Group7 w-14 h-9 relative">
+    <div className="Rectangle4 w-14 h-9 left-0 top-0 absolute bg-red-600 bg-opacity-0" />
+    <div className="GpmPr left-[5px] top-[10px] absolute text-center text-neutral-100 text-xs font-bold font-['Inter']">GPM-PR</div>
+  </div>
+  <div className="Group13 w-28 h-9 relative">
+    <div className="Rectangle12 w-28 h-9 left-0 top-0 absolute bg-zinc-200 bg-opacity-0" />
+    <div className="DharmaWanita left-[5px] top-[9px] absolute text-neutral-100 text-xs font-bold font-['Poppins']">DHARMA WANITA</div>
+  </div>
+  <div className="Globe w-9 h-9 relative" src="../assets/globe.png" />
+</div>
+
         <slot />
     </div>
-
+    
     <div>
         <footer class="custom-footer bg-sky-900 text-white pt-10 pb-5 pl-20 pr-20">
             <div class="logo flex items-center">

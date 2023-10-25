@@ -2,7 +2,7 @@
     <div>
         <h1>Home Page</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, ut laborum ipsa pariatur dicta saepe impedit soluta sed, hic voluptas modi nemo ducimus odio tenetur, laudantium velit qui numquam magni.</p>
-
+        
         <div class="sambutan flex justify-center items-center m-20">
             <div class="relative w-[1180px] h-[392px] rounded-[12px] overflow-hidden bg-[url(https://2.bp.blogspot.com/-EHQhGRau2Aw/VzLTtiji06I/AAAAAAAAARg/MvH26rSCuNo0Gnz-miJfW2e-iMhIqOJxgCLcB/s1600/kampus.jpg)] bg-cover bg-[50%_50%]">
                 <div class="absolute top-0 left-0 w-full h-full bg-white opacity-90"></div>
