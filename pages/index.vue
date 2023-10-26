@@ -43,9 +43,9 @@
             <TextTitle textTitle="PENGUMUMAN" />
             
             <div class="isi-pengumuman m-10 flex justify-center flex-wrap">
-                <PengumumanCard class="dies" title="Dies Natalis FT-UH" date="26/09/2021" />
-                <PengumumanCard class="bangkit" title="Bangkit Academy 2022" date="26/09/2021"/>
-                <PengumumanCard class="seminar" title="Seminar Proposal" date="26/09/2021"/>
+                <PengumumanCard className="dies" title="Dies Natalis FT-UH" date="26/09/2021" />
+                <PengumumanCard className="bangkit" title="Bangkit Academy 2022" date="26/09/2021"/>
+                <PengumumanCard className="seminar" title="Seminar Proposal" date="26/09/2021"/>
             </div>
         </div>
 

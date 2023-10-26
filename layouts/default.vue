@@ -64,6 +64,23 @@
   <div class="Globe w-9 h-9 relative" src="../assets/globe.png" />
 </div>
 
+<div class="Hero w-screen h-96 flex-col justify-center items-start inline-flex">
+    <div class="Images w-screen h-96 relative flex-col justify-start items-start flex">
+        <img class="Image1 w-screen h-screen" src="../assets/y bridge.png" />
+        <div class="SwapButton2 w-16 h-16 relative">
+            <div class="Ellipse4 w-16 h-16 left-0 top-0 absolute bg-neutral-100 bg-opacity-80 rounded-full"></div>
+        </div>
+        <div class="SwapButton1 w-16 h-16 relative">
+        <img class ="" src="../assets/Swap Button 1.png" />
+            <div class="Ellipse4 w-16 h-16 left-0 top-0 absolute bg-neutral-100 bg-opacity-80 rounded-full"></div>
+        </div>
+    </div>
+</div>
+<div class="WelcomeBanner w-screen h-28 relative">
+        <div class="Rectangle13 w-screen h-28 left-0 top-50 absolute bg-sky-950"></div>
+        <div class="SelamatDatangDiFakultasTeknikUniversitasHasanuddin whitespace-nowrap w-96 h-10 left-[254.18px] top-[34.63px] absolute text-center text-neutral-100 text-2xl font-bold font-['Poppins']">SELAMAT DATANG DI FAKULTAS TEKNIK UNIVERSITAS HASANUDDIN</div>
+    </div>
+
         <slot />
     </div>
     
